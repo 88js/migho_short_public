@@ -4,9 +4,9 @@ from telebot.types import InlineKeyboardButton as bb,InlineKeyboardMarkup as b,K
 
 
 
-
-bot = TeleBot('6129916205:AAFNCdbQEz1LyjsHOMXiSNy07PRgiL1gieI')
-sudo = 6263995750
+token = '' #telegram bot token
+bot = TeleBot(token)
+sudo = 0 #ur account id telegram
 
 def baba(m):
     try:
